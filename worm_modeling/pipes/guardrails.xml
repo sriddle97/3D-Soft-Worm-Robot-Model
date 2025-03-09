@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco>
+   <worldbody>
+      <body name="wall_1" pos="0 -0.03 -0.015">
+         <geom type="box" size="2 0.01 0.35"  mass="2" rgba="1 1 1 0.25" friction="0.0"/>
+      </body>
+      <body name="wall_2" pos="0 0.38 -0.015">
+         <geom type="box" size="2 0.01 0.35" mass="2" rgba="1 1 1 0.25" friction="0.0"/>
+      </body>
+   </worldbody>
+</mujoco>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="worm">
+
+   <extension>
+      <plugin plugin="mujoco.elasticity.cable"/>
+   </extension>
+   <size memory="1G"/>
+   <statistic center="0 0 .2" extent="1"/>
+   <compiler autolimits="true">
+      <lengthrange tolrange="0.5"/>
+   </compiler>
+   <visual>
+      <global elevation="-30" offheight="400" offwidth="900"/>
+   </visual>
+   <default>
+      <geom solimp=".95 .99 .0001" solref="0.01 1" friction="0.5"/>
+      <site size="0.002"/>
+      <tendon limited="false" rgba=".95 .3 .3 1" width="0.001"/>
+      <default class="muscle">
+         <muscle ctrllimited="true" ctrlrange="0 1"/>
+      </default>
+   </default>
+   <option integrator="RK4" iterations="500" solver="PGS" timestep="0.001"
+           tolerance="1e-6"/>
+   <!-- can add cone="pyramidal" or "elliptic" to <options> for friction cones-->
+
+   
+   <worldbody>
+      <!-- <camera name="fixed" pos="0.2 -1 0.2" xyaxes="1 0 0 0 0 1"/> -->
+      <camera name="fixed" pos="-0.3 -1.7 0.2" xyaxes="1 0 0 0 0 1"/>
+      <light castshadow="false" diffuse=".4 .4 .4" dir="0 0 -1" pos="0 0 2.0"
+             specular="0.1 0.1 0.1"/>
+      <light diffuse=".8 .8 .8" dir="0 0 -1" directional="true" pos="0 0 4"
+             specular="0.2 0.2 0.2"/>
+      <!-- <geom condim="3" material="MatPlane" name="floor" pos="0 0 -0.009" rgba="1 1 1 1"
+            size="10 10 0.125"
+            type="plane"/> -->
+
+      <!-- <body name="pivot" pos="0 0 .1">
+         <geom type="box" size="0.01 0.01 0.01"/> 
+      </body> -->
+
+      <body name="platform" pos="0 0.1 -0.015">
+         <joint name="angler" type="hinge" axis="0 1 0" limited="true" range="-30 30"/>
+         <geom type="box" size="1 0.35 0.01"/>
+    </body>
+   </worldbody>
+   
+   <asset>
+      <texture builtin="gradient" height="512" rgb1="1 1 1" rgb2="1 1 1" type="skybox"
+               width="512"/>
+      <texture builtin="checker" height="512" mark="cross" markrgb="1 1 1" name="texplane"
+               rgb1="1 1 1"
+               rgb2="1 1 1"
+               type="2d"
+               width="512"/>
+      <material name="MatPlane" reflectance="0" texrepeat="10 10" texture="texplane"
+                texuniform="true"/>
+   </asset>
+
+   <actuator>
+      <position name="plat_motor" joint="angler" kp="10000"/>
+      <velocity name="plat_motor_vel" joint="angler" kv="10000"/>
+   </actuator>
+</mujoco>
