@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco>
+   <worldbody>
+   <body pos="-0.05 0.16 -0.02" euler="0 0 -90">
+      <geom euler=" 0 10 0 " fromto="0.16 0 0.16 0.16 -2.5 0.16" rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 20 0 " fromto="0.15968 0 0.17005 0.15968 -2.5 0.17005"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 30 0 " fromto="0.15874 0 0.18005 0.15874 -2.5 0.18005"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 40 0 " fromto="0.15717 0 0.18998 0.15717 -2.5 0.18998"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 50 0 " fromto="0.15497 0 0.19979 0.15497 -2.5 0.19979"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 60 0 " fromto="0.15217 0 0.20944 0.15217 -2.5 0.20944"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 70 0 " fromto="0.14876 0 0.2189 0.14876 -2.5 0.2189"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 80 0 " fromto="0.14477 0 0.22812 0.14477 -2.5 0.22812"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 90 0 " fromto="0.14021 0 0.23708 0.14021 -2.5 0.23708"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 100 0 " fromto="0.13509 0 0.24573 0.13509 -2.5 0.24573"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 110 0 " fromto="0.12944 0 0.25405 0.12944 -2.5 0.25405"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 120 0 " fromto="0.12328 0 0.26199 0.12328 -2.5 0.26199"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 130 0 " fromto="0.11663 0 0.26953 0.11663 -2.5 0.26953"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 140 0 " fromto="0.10953 0 0.27663 0.10953 -2.5 0.27663"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 150 0 " fromto="0.10199 0 0.28328 0.10199 -2.5 0.28328"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 160 0 " fromto="0.094046 0 0.28944 0.094046 -2.5 0.28944"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 170 0 " fromto="0.085732 0 0.29509 0.085732 -2.5 0.29509"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 180 0 " fromto="0.077081 0 0.30021 0.077081 -2.5 0.30021"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 190 0 " fromto="0.068125 0 0.30477 0.068125 -2.5 0.30477"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 200 0 " fromto="0.0589 0 0.30876 0.0589 -2.5 0.30876"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 210 0 " fromto="0.049443 0 0.31217 0.049443 -2.5 0.31217"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 220 0 " fromto="0.03979 0 0.31497 0.03979 -2.5 0.31497"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 230 0 " fromto="0.029981 0 0.31717 0.029981 -2.5 0.31717"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 240 0 " fromto="0.020053 0 0.31874 0.020053 -2.5 0.31874"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 250 0 " fromto="0.010046 0 0.31968 0.010046 -2.5 0.31968"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 260 0 " fromto="9.7972e-18 0 0.32 9.7972e-18 -2.5 0.32"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 270 0 " fromto="-0.010046 0 0.31968 -0.010046 -2.5 0.31968"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 280 0 " fromto="-0.020053 0 0.31874 -0.020053 -2.5 0.31874"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 290 0 " fromto="-0.029981 0 0.31717 -0.029981 -2.5 0.31717"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 300 0 " fromto="-0.03979 0 0.31497 -0.03979 -2.5 0.31497"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 310 0 " fromto="-0.049443 0 0.31217 -0.049443 -2.5 0.31217"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 320 0 " fromto="-0.0589 0 0.30876 -0.0589 -2.5 0.30876"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 330 0 " fromto="-0.068125 0 0.30477 -0.068125 -2.5 0.30477"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 340 0 " fromto="-0.077081 0 0.30021 -0.077081 -2.5 0.30021"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 350 0 " fromto="-0.085732 0 0.29509 -0.085732 -2.5 0.29509"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 360 0 " fromto="-0.094046 0 0.28944 -0.094046 -2.5 0.28944"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 370 0 " fromto="-0.10199 0 0.28328 -0.10199 -2.5 0.28328"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 380 0 " fromto="-0.10953 0 0.27663 -0.10953 -2.5 0.27663"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 390 0 " fromto="-0.11663 0 0.26953 -0.11663 -2.5 0.26953"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 400 0 " fromto="-0.12328 0 0.26199 -0.12328 -2.5 0.26199"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 410 0 " fromto="-0.12944 0 0.25405 -0.12944 -2.5 0.25405"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 420 0 " fromto="-0.13509 0 0.24573 -0.13509 -2.5 0.24573"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 430 0 " fromto="-0.14021 0 0.23708 -0.14021 -2.5 0.23708"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 440 0 " fromto="-0.14477 0 0.22812 -0.14477 -2.5 0.22812"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 450 0 " fromto="-0.14876 0 0.2189 -0.14876 -2.5 0.2189"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 460 0 " fromto="-0.15217 0 0.20944 -0.15217 -2.5 0.20944"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 470 0 " fromto="-0.15497 0 0.19979 -0.15497 -2.5 0.19979"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 480 0 " fromto="-0.15717 0 0.18998 -0.15717 -2.5 0.18998"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 490 0 " fromto="-0.15874 0 0.18005 -0.15874 -2.5 0.18005"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 500 0 " fromto="-0.15968 0 0.17005 -0.15968 -2.5 0.17005"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 510 0 " fromto="-0.16 0 0.16 -0.16 -2.5 0.16" rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 520 0 " fromto="-0.15968 0 0.14995 -0.15968 -2.5 0.14995"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 530 0 " fromto="-0.15874 0 0.13995 -0.15874 -2.5 0.13995"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 540 0 " fromto="-0.15717 0 0.13002 -0.15717 -2.5 0.13002"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 550 0 " fromto="-0.15497 0 0.12021 -0.15497 -2.5 0.12021"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 560 0 " fromto="-0.15217 0 0.11056 -0.15217 -2.5 0.11056"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 570 0 " fromto="-0.14876 0 0.1011 -0.14876 -2.5 0.1011"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 580 0 " fromto="-0.14477 0 0.091875 -0.14477 -2.5 0.091875"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 590 0 " fromto="-0.14021 0 0.082919 -0.14021 -2.5 0.082919"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 600 0 " fromto="-0.13509 0 0.074268 -0.13509 -2.5 0.074268"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 610 0 " fromto="-0.12944 0 0.065954 -0.12944 -2.5 0.065954"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 620 0 " fromto="-0.12328 0 0.058012 -0.12328 -2.5 0.058012"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 630 0 " fromto="-0.11663 0 0.050472 -0.11663 -2.5 0.050472"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 640 0 " fromto="-0.10953 0 0.043365 -0.10953 -2.5 0.043365"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 650 0 " fromto="-0.10199 0 0.036718 -0.10199 -2.5 0.036718"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 660 0 " fromto="-0.094046 0 0.030557 -0.094046 -2.5 0.030557"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 670 0 " fromto="-0.085732 0 0.024908 -0.085732 -2.5 0.024908"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 680 0 " fromto="-0.077081 0 0.019791 -0.077081 -2.5 0.019791"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 690 0 " fromto="-0.068125 0 0.015228 -0.068125 -2.5 0.015228"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 700 0 " fromto="-0.0589 0 0.011236 -0.0589 -2.5 0.011236"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 710 0 " fromto="-0.049443 0 0.007831 -0.049443 -2.5 0.007831"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 720 0 " fromto="-0.03979 0 0.0050267 -0.03979 -2.5 0.0050267"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 730 0 " fromto="-0.029981 0 0.002834 -0.029981 -2.5 0.002834"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 740 0 " fromto="-0.020053 0 0.0012616 -0.020053 -2.5 0.0012616"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 750 0 " fromto="-0.010046 0 0.00031572 -0.010046 -2.5 0.00031572"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 760 0 " fromto="-2.9392e-17 0 0 -2.9392e-17 -2.5 0" rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 770 0 " fromto="0.010046 0 0.00031572 0.010046 -2.5 0.00031572"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 780 0 " fromto="0.020053 0 0.0012616 0.020053 -2.5 0.0012616"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 790 0 " fromto="0.029981 0 0.002834 0.029981 -2.5 0.002834"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 800 0 " fromto="0.03979 0 0.0050267 0.03979 -2.5 0.0050267"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 810 0 " fromto="0.049443 0 0.007831 0.049443 -2.5 0.007831"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 820 0 " fromto="0.0589 0 0.011236 0.0589 -2.5 0.011236"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 830 0 " fromto="0.068125 0 0.015228 0.068125 -2.5 0.015228"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 840 0 " fromto="0.077081 0 0.019791 0.077081 -2.5 0.019791"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 850 0 " fromto="0.085732 0 0.024908 0.085732 -2.5 0.024908"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 860 0 " fromto="0.094046 0 0.030557 0.094046 -2.5 0.030557"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 870 0 " fromto="0.10199 0 0.036718 0.10199 -2.5 0.036718"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 880 0 " fromto="0.10953 0 0.043365 0.10953 -2.5 0.043365"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 890 0 " fromto="0.11663 0 0.050472 0.11663 -2.5 0.050472"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 900 0 " fromto="0.12328 0 0.058012 0.12328 -2.5 0.058012"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 910 0 " fromto="0.12944 0 0.065954 0.12944 -2.5 0.065954"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 920 0 " fromto="0.13509 0 0.074268 0.13509 -2.5 0.074268"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 930 0 " fromto="0.14021 0 0.082919 0.14021 -2.5 0.082919"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 940 0 " fromto="0.14477 0 0.091875 0.14477 -2.5 0.091875"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 950 0 " fromto="0.14876 0 0.1011 0.14876 -2.5 0.1011"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 960 0 " fromto="0.15217 0 0.11056 0.15217 -2.5 0.11056"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 970 0 " fromto="0.15497 0 0.12021 0.15497 -2.5 0.12021"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 980 0 " fromto="0.15717 0 0.13002 0.15717 -2.5 0.13002"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 990 0 " fromto="0.15874 0 0.13995 0.15874 -2.5 0.13995"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+      <geom euler=" 0 1000 0 " fromto="0.15968 0 0.14995 0.15968 -2.5 0.14995"
+            rgba="1 1 1 0.35"
+            size="0.0050257"
+            type="cylinder"/>
+   </body>
+   </worldbody>
+</mujoco>

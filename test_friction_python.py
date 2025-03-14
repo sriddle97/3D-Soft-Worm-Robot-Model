@@ -16,9 +16,7 @@ from tqdm import tqdm
 import matplotlib.animation as animation
 import mediapy as media
 
-
 #########################################################################
-
 
 work_dir = os.getcwd()
 xml_path = work_dir + r"\worm_modeling\worm_friction_test.xml"

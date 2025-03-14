@@ -1,7 +1,7 @@
 <mujoco model="worm">
    
    
-   <include file="C:\Users\Shane\Documents\GitHub\Adaptive-SNS-Peristalsis\worm_modeling\pipes\90_pipe_0.5_thin.xml" />
+   <include file="C:\Users\Shane\Documents\GitHub\3D-Soft-Worm-Robot-Model\worm_modeling\pipes\no_pipe.xml" />
 
    <extension>
       <plugin plugin="mujoco.elasticity.cable" />
@@ -16,7 +16,7 @@
       <global elevation="-30" offheight="400" offwidth="900" />
    </visual>
    <default>
-      <geom solimp=".95 .99 .0001" solref="0.01 1" friction="0.4" />
+      <geom solimp=".95 .99 .0001" solref="0.01 1" friction="0.0" />
       <site size="0.002" />
       <tendon limited="false" rgba=".95 .3 .3 1" width="0.001" />
       <default class="muscle">

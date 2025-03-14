@@ -5,10 +5,12 @@ clear;
 points = {};
 
 radius = 0.16;
-pipe_length = 0.5;
+pipe_length = 2.5;
 
-center_point1 = [0.16,-0.05,radius-0.02];
-center_point2 = [0.16,-(pipe_length+0.05),radius-0.02];
+% center_point1 = [0.16,-0.05,radius-0.02];
+% center_point2 = [0.16,-(pipe_length+0.05),radius-0.02];
+center_point1 = [0,0,radius];
+center_point2 = [0,-pipe_length,radius];
 % center_point1 = [0,0.16,radius];
 % center_point2 = [pipe_length,0.16,radius];
 rotation_angle = 0; % only need if you are making a pipe that bends
@@ -17,7 +19,7 @@ num_points = 100; % the number of bodies that will make up the pipe
 points{1} = make_points(center_point1,rotation_angle, radius, num_points);
 points{2} = make_points(center_point2,rotation_angle, radius, num_points);
 
-make_pipe(points, 'straight_pipe.xml');
+make_pipe(points, 'straight_pipe_thin.xml');
 
 
 %% tapered pipe
