@@ -8,10 +8,10 @@ There are two folders: Mechanical_Analysis_Model and Feedback_Control_Model. The
 Mujoco compiles models into the simulation environment from an xml file or object. The xml file for this robot can be auto-generated using the master_worm.m file in the worm_modeling folder. Please note that changes to the model will necessitate minor changes to the code (accounting for new sensor length tolerances, more segments, etc.).
 
 ### Running the Model
-The python script Time_Based_Worm.py runs the simulation in the Mechanical_Analysis_Model folder. The Lin_Turning_Sense.py script, and its variants, run the simulation in the Feedback_Control_Model folder,
+The python script Time_Based_Worm.py runs the simulation in the Mechanical_Analysis_Model folder. The Lin_Turning_Sense.py script, and its variants, run the simulation in the Feedback_Control_Model folder.
 
 ### Necessary Packages
-To run this model you will need to have mujoco installed. We have verified compatibility up to Mujoco 3.4.0:
+To run this model you will need to have mujoco installed. We have verified compatibility up to Mujoco 3.4.0. Note that at time of writting, MuJoCo only supports up to Python 3.13.
 
 https://github.com/deepmind/mujoco/releases
 
